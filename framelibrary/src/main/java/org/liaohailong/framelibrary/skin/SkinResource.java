@@ -16,8 +16,8 @@ import java.lang.reflect.Method;
 
 public class SkinResource {
     //资源通过此对象获取
-    private Resources mSkinResources;
-    private String mPackageName;
+    private Resources mSkinResources;//插件皮肤包的资源管理者
+    private String mPackageName;//插件皮肤包的包名
 
     public SkinResource(Context context, String skinPath) {
         try {
