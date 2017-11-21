@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.liaohailong.skintestapplication.MainActivity">
+
+    <Button
+        android:id="@+id/skin_change_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="换肤" />
+
+    <Button
+        android:id="@+id/skin_default_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复默认皮肤" />
+
+    <Button
+        android:id="@+id/jump_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Hello World!"
+        android:textColor="@color/text_view_color" />
+
+</LinearLayout>
