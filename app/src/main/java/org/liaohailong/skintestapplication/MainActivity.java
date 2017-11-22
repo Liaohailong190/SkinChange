@@ -3,7 +3,6 @@ package org.liaohailong.skintestapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 
@@ -11,8 +10,7 @@ import org.liaohailong.framelibrary.skin.SkinManager;
 
 import java.io.File;
 
-public class MainActivity extends BaseActivity implements LayoutInflater.Factory2,
-        View.OnClickListener {
+public class MainActivity extends BaseActivity implements View.OnClickListener {
     private Button skinChangeBtn;
     private Button skinDefaultBtn;
     private Button jumpBtn;
@@ -29,7 +27,6 @@ public class MainActivity extends BaseActivity implements LayoutInflater.Factory
         skinDefaultBtn.setOnClickListener(this);
         jumpBtn.setOnClickListener(this);
     }
-
 
     @Override
     public void onClick(View v) {

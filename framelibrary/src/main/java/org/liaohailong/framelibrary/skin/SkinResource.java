@@ -41,7 +41,6 @@ public class SkinResource {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
     }
 
     /**
@@ -55,7 +54,6 @@ public class SkinResource {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
         return drawable;
     }
 

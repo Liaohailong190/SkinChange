@@ -30,6 +30,7 @@ public class SkinAttrSupport {
         for (int index = 0; index < attrLength; index++) {
             //获取名称
             String attrName = attrs.getAttributeName(index);
+            //获取属性值
             String attrValue = attrs.getAttributeValue(index);
             //Log.e(TAG, " attrName = " + attrName + " !!!!  attrValue = " + attrValue);
             //只获取重要的
